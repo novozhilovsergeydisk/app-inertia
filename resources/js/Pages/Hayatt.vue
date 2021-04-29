@@ -156,7 +156,7 @@
             <div class="py-12 bg-white">
                 <Welcome />
 
-                <BrickForms />
+                <Forms />
             </div>
 
         </main>
@@ -166,15 +166,15 @@
 <script>
     import AppLayout from '@/Layouts/AppLayout'
     import Welcome from '@/Jetstream/Welcome'
-    import Brick_2_2_grid from '@/Pages/Bricks/Centerd_2_2_grid'
-    import BrickForms from '@/Pages/Bricks/Forms'
+    import CenteredGrid from '@/Pages/Components/CenteredGrid'
+    import Forms from '@/Pages/Components/Forms'
 
     export default {
         components: {
             AppLayout,
             Welcome,
-            Brick_2_2_grid,
-            BrickForms
+            CenteredGrid,
+            Forms
         },
     }
 </script>
